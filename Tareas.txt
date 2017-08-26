@@ -7,3 +7,4 @@
 	-Inverso en modular.
 4.-Programa que encripta y desencripta.
 	-Asimétrico.
+	-Verificar que tiene inverso modular.

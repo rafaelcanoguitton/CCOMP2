@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1503756225 source:d:\ccomp2\calendario xd\main.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+
