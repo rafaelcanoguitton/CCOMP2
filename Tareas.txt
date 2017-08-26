@@ -1,0 +1,9 @@
+1.-Diferencia de fechas. [https://www.calendario-365.es/calcular/19-08-2017_19-08-2018.html].
+2.-Primos menores de mil.
+3.-Calculadora modular.
+	-Suma en modular.
+	-Resta en modular.
+	-Multiplicación en modular.
+	-Inverso en modular.
+4.-Programa que encripta y desencripta.
+	-Asimétrico.
