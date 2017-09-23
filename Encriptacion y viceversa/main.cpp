@@ -1,10 +1,20 @@
 #include <iostream>
-#include <vector>
 #include <string>
 #include <cstring>
 #include <fstream>
 #include <cstdlib>
 using namespace std;
+int comprobar(ifstream &t)
+{
+    string line;
+    int j=0;
+    if(t.is_open())
+    {
+        while(getline(t,line))
+            j++;
+    }
+    return j;
+}
 int multi(int a,int b,int c)
 {
     int x = (a*b)%c;
@@ -18,18 +28,14 @@ int multi(int a,int b,int c)
 }
 void encriptar()
 {
-
+    string arr[3] = {"texto.txt","textoe.txt","textode.txt"};
     string line;
-    ifstream myfile ("texto.txt");
-    int j=0;
+    ifstream myfile;
+    myfile.open(&arr[0]);
     int i=0;
+    int j=comprobar(myfile);
     int cont=0;
-    if (myfile.is_open())
-    {
-        while ( getline (myfile,line) )
-    {
-      j++;
-    }}myfile.close();
+    myfile.close();
     string lines[j];
     ifstream mifile ("texto.txt");
     if (mifile.is_open()){
