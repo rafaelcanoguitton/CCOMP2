@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506728559 source:c:\users\kanofll\ccomp2\insercion\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+

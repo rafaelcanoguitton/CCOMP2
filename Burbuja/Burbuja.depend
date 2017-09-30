@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506731345 source:c:\users\kanofll\ccomp2\burbuja\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+

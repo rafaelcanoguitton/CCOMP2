@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1506731259 source:c:\users\kanofll\ccomp2\coctelxd\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
